@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #221f1f;
+    color: rgb(170, 132, 132);
+  }
+  
+  #readme{
+    color: rgb(170, 132, 132);
+    text-decoration: none;
+
+  }
+  #readme:hover{
+    color: rgb(199, 144, 144);
+
+  }
+  
+  .header {
+    padding: 2px;
+    font-size: 40px;
+    text-align: center;
+    background: rgb(248, 210, 210);
+    color: #240505;
+  }
+  
+  .leftcolumn {   
+    float: left;
+    width: 100%;
+  }
+  
+  .card {
+     background-color: rgb(48, 27, 27);
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
